@@ -16,5 +16,6 @@ class akash{
             }
             System.out.println();
           }
+          sc.close();
     }
 }

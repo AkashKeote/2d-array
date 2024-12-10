@@ -43,6 +43,7 @@ public class matrixMultiplication {
     else{
         System.out.println("Matrix multiplication is not possible");
     }
+    sc.close();
         
     }
 }

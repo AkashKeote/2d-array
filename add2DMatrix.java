@@ -33,5 +33,6 @@ public class add2DMatrix {
     else{
         System.out.println("not Possible!!!!");
     }
+    sc.close();
     }
 }

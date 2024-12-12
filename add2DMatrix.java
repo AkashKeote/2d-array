@@ -24,8 +24,8 @@ public class add2DMatrix {
       if(m==p&&n==q){ 
         for(int i=0;i<m;i++){
             for(int j=0;j<n;j++){
-                int sum = arr1[i][j]+arr2[i][j];
-                System.out.print(sum+" ");
+               
+                System.out.print( arr1[i][j]+arr2[i][j]+" ");
             }
             System.out.println();
         }

@@ -17,13 +17,14 @@ public class minandmax {
         int minR=0,minC=0;
         for(int i=0;i<arr.length;i++){
             for(int j=0;j<arr[0].length;j++){
-                if(min<arr[i][j]){
+                if(min>arr[i][j]){
                     min = arr[i][j];
                 minR = i;
                 minC = j;
             }}
         }
-        System.out.println("MIN :"+"return new int[]{minR,minC}"+minR+" "+minC);
+        System.out.println("Min :"+min);
+        System.out.println("return new int[]{minR,minC}"+minR+" "+minC);
 
     }
 }
